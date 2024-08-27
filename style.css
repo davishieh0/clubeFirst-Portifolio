@@ -1,0 +1,129 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+a{
+    color: black;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+}
+img{
+    max-width: 100%;
+}
+.lista-header{
+
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+.lista-header a{
+    color: #f0f0f0;
+}
+
+.login-button{
+    color: #f0f0f0;
+    padding: 6px 40px;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    background: linear-gradient(91deg, #0D1731 0.71%, #05010D 91.62%, #05010D 91.63%);
+    
+}
+body{
+    background-color: #05010D;
+    color: #f0f0f0;
+    position: relative;
+}
+.lista-img{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    
+}
+.main-text h1{
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 84px;
+    font-family: "Bungee Inline";
+    background: linear-gradient(94deg, #FFF 0%, #9BD0F5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-text h2{
+    text-align: center;
+    font-family: "Alfa Slab One";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+
+    background: linear-gradient(94deg, #FFF 0%, #9BD0F5 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.main-text button{
+color: #000000;
+font-family: Arial;
+font-weight: 500;
+padding: 10px 15px;
+border-radius: 6px;
+border: 1px solid rgba(0, 0, 0, 0.05);
+background: rgba(255, 255, 255, 0.90);
+box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.20);
+}
+.main-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #595C68;
+
+}
+.escolha-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    text-align: center;
+}
+
+.container-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.container-section div{
+    width: 310px;
+    height: 520px;
+padding: 127px 47px  127px 47px ;
+background-color: #110E19;
+border-radius: 12px;
+border: 1px solid #FFFFFF1A;
+
+}
